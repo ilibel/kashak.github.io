@@ -1,0 +1,48 @@
+
+
+
+.jumbotron-img{
+    width: 140px;
+    height: 140px;
+    display: block;
+    margin: -115px auto auto;
+}
+.jumbotron-margin{
+    margin-top: 100px;
+}
+#to-top{
+    position:fixed;
+    bottom:10px; /* отступ кнопки от нижнего края страницы*/
+    right:10px;
+    cursor:pointer;
+    display:none;
+}
+
+/* review */
+.review-article {
+    background-color: #f1f1f1;
+    margin-top: 100px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+.even-review {
+    margin-left: 15px;
+}
+.review-ico {
+    width: 100px;
+    height: 100px;
+    border: solid #f26b5d 5px;
+    padding-left: 127px;
+    padding-top: 110px;
+    background-repeat: no-repeat;
+    background-position-x: 0px;
+    background-position-y: 0px;
+    border-radius: 200px;
+    margin-right: 5px;
+}
+.review-text {
+    padding-top: 20px;
+}
+.rv-1 {
+    background-image: url("../images/monitor.png");
+}
