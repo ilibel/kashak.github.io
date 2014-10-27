@@ -24,6 +24,7 @@
     <!-- Custom styles for this template -->
     <link href="css/carousel.css" rel="stylesheet">
     <link href="css/YTPlayer.css" rel="stylesheet">
+    <link href="css/animate.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
   </head>
 <!-- NAVBAR
@@ -126,7 +127,7 @@
       <!-- Three columns of text below the carousel -->
       <div class="row" id="prices">
         <div class="col-lg-4">
-          <div class="jumbotron jumbotron-margin prices-font">
+          <div class="jumbotron jumbotron-margin prices-font wow fadeInUp" data-wow-duration="1.5s">
             <img class="img-circle jumbotron-img" src="images/tag.png">
             <div class="caption">
               <div class="price-head">Сайт визитка</div>
@@ -141,7 +142,7 @@
           </div>
         </div>
         <div class="col-lg-4">
-          <div class="jumbotron jumbotron-margin prices-font">
+          <div class="jumbotron jumbotron-margin prices-font wow fadeInUp" data-wow-duration="2.5s">
             <img class="img-circle jumbotron-img" src="images/page.png">
             <div class="caption">
               <div class="price-head">Официальный сайт</div>
@@ -158,7 +159,7 @@
           </div>
         </div>
         <div class="col-lg-4">
-          <div class="jumbotron jumbotron-margin prices-font">
+          <div class="jumbotron jumbotron-margin prices-font wow fadeInUp" data-wow-duration="3.5s">
             <img class="img-circle jumbotron-img" src="images/monitor.png">
             <div class="caption">
               <div class="price-head">Веб-приложение</div>
@@ -203,7 +204,7 @@
       <hr class="featurette-divider">
 
       <div id="references" class="row">
-        <div class="col-lg-12 col-md-12 review-article jumbotron">
+        <div class="col-lg-12 col-md-12 review-article jumbotron wow fadeInLeftBig" data-wow-duration="1.0s">
           <div class="row">
             <div class="col-lg-4">
               <span class="review-ico rv-1"></span>
@@ -224,7 +225,7 @@
       </div>
 
       <div class="row">
-        <div class="col-lg-12 col-md-12 review-article jumbotron even-review">
+        <div class="col-lg-12 col-md-12 review-article jumbotron even-review wow fadeInRightBig" data-wow-duration="1.0s">
           <div class="row">
             <div class="col-lg-4 col-lg-offset-8">
               Петров Петр Петрович
@@ -246,7 +247,7 @@
       </div>
 
       <div class="row">
-        <div class="col-lg-12 col-md-12 review-article jumbotron">
+        <div class="col-lg-12 col-md-12 review-article jumbotron wow fadeInLeftBig" data-wow-duration="1.0s">
           <div class="row">
             <div class="col-lg-4">
               <span class="review-ico rv-1"></span>
@@ -274,9 +275,10 @@
       <!-- /END THE FEATURETTES -->
 
       <div id="contact" class="container row">
-        <h2 style="text-align: center;">Вы можете позвонить нам, написать на почту или оставить свои контактные данные, и мы обязательно с Вами свяжемся</h2>
+        <h2 style="text-align: center;" class="wow fadeInDown" data-wow-duration="0.5s">
+          Вы можете позвонить нам, написать на почту или оставить свои контактные данные, и мы обязательно с Вами свяжемся</h2>
 
-        <div class="col-lg-6">
+        <div class="col-lg-6 wow fadeInLeft" data-wow-duration="1.5s">
           <div class="contact-div">
             <img src="images/smartphone.png" class="contact-img"/>
             <span label label-default>8 (900) 000-00-00</span></div>
@@ -289,7 +291,7 @@
           </div>
         </div>
 
-        <div class="col-lg-6 jumbotron contact-div">
+        <div class="col-lg-6 jumbotron contact-div wow fadeInRight" data-wow-duration="1.5s">
           <form role="form">
             <div class="form-group">
               <label for="name">Имя</label>
@@ -337,7 +339,7 @@
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/docs.min.js"></script>
-    <!-- <script src="js/script.js"></script> -->
+    <script src="js/wow.min.js"></script>
     <script src="js/jquery.mb.YTPlayer.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="js/ie10-viewport-bug-workaround.js"></script>

@@ -18,4 +18,6 @@ $(document).ready(function() {
         jQuery(".carousel-inner").mb_YTPlayer();
         jQuery("#footer").mb_YTPlayer();
     });
+
+    new WOW().init();
 });
