@@ -1,4 +1,17 @@
 
+body {
+    padding-bottom: 0px;
+}
+#myCarousel .item {
+    background: transparent;
+}
+.navbar-wrapper .navbar-inverse {
+    background: transparent;
+    border: transparent;
+}
+.navbar-inverse .navbar-nav>li>a {
+    color: whitesmoke;
+}
 
 
 .jumbotron-img{
@@ -55,4 +68,27 @@
 
 textarea{
     resize: none;
+}
+
+.contact-img{
+    width: 70px;
+    height: 70px;
+}
+
+.contact-div{
+    margin-top: 35px;
+}
+
+.price-head{
+    height: 80px;
+    font-size: 24px;
+    text-align: center;
+}
+
+#footer {
+    padding-left: 0px;
+    padding-right: 0px;
+    background-color: #131313;
+    color: #868686;
+    height: 400px;
 }
