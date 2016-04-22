@@ -22,326 +22,48 @@
     <![endif]-->
 
     <!-- Custom styles for this template -->
-    <link href="css/carousel.css" rel="stylesheet">
-    <link href="css/YTPlayer.css" rel="stylesheet">
-    <link href="css/animate.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
   </head>
 <!-- NAVBAR
 ================================================== -->
 
   <body>
-    <div class="navbar-wrapper">
-      <div class="container">
-        <div class="navbar navbar-inverse navbar-static-top" role="navigation">
-          <div class="container">
-            <div class="navbar-header">
-              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-              <a class="navbar-brand" href="#">WDs</a>
-            </div>
-            <div class="navbar-collapse collapse">
-              <ul class="nav navbar-nav pull-right">
-                <li class="active"><a href="#services" class="animated-scroll">Услуги</a></li>
-                <li><a href="#prices" class="animated-scroll">Цены</a></li>
-                <li><a href="#references" class="animated-scroll">Отзывы</a></li>
-                <li><a href="#contact" class="animated-scroll">Контакты</a></li>
-                <!--li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <span class="caret"></span></a>
-                  <ul class="dropdown-menu" role="menu">
-                    <li><a href="#">Action</a></li>
-                    <li><a href="#">Another action</a></li>
-                    <li><a href="#">Something else here</a></li>
-                    <li class="divider"></li>
-                    <li class="dropdown-header">Nav header</li>
-                    <li><a href="#">Separated link</a></li>
-                    <li><a href="#">One more separated link</a></li>
-                  </ul>
-                </li-->
-              </ul>
-            </div>
-          </div>
-        </div>
 
-      </div>
+    <div class="container">
+      <a href="./download/yandex_mobilization_2016.apk">yandex_mobilization_2016.apk</a>
     </div>
 
-
-    <!-- Carousel
-    ================================================== -->
-    <div id="myCarousel" class="carousel slide" data-ride="carousel">
-      <!-- Indicators -->
-      <ol class="carousel-indicators">
-        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-        <li data-target="#myCarousel" data-slide-to="1"></li>
-        <li data-target="#myCarousel" data-slide-to="2"></li>
-      </ol>
-      <div class="carousel-inner"    data-property="{videoURL:'http://www.youtube.com/watch?v=CGXd33pJR-c&list=PL7E036F27D008B266',containment:'.carousel-inner',autoPlay:true, mute:true, startAt:0, opacity:1}">
-        <div class="item active">
-        <!--<img src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="First slide"> -->
-        <div class="container">
-          <div class="carousel-caption">
-            <h1>Example headline.</h1>
-            <p>Note: If you're viewing this page via a <code>file://</code> URL, the "next" and "previous" Glyphicon buttons on the left and right might not load/display properly due to web browser security rules.</p>
-            <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>
-          </div>
+    <!--
+    <div class="col-lg-6 jumbotron contact-div wow fadeInRight" data-wow-duration="1.5s">
+      <form role="form" method="POST" action="http://nodesendmail.herokuapp.com/sendmail">
+        <input type="text" value="kashak.github.io" name="hostname" hidden="hidden">
+        <div class="form-group">
+          <label for="name">Имя</label>
+          <input type="text" class="form-control" id="name" name="name">
         </div>
-      </div>
-      <div class="item">
-        <!--<img src="data:image/gif;base64,R0lGODlhAQABAIAAAGZmZgAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Second slide"> -->
-        <div class="container">
-          <div class="carousel-caption">
-            <h1>Another example headline.</h1>
-            <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-            <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
-          </div>
+        <div class="form-group">
+          <label for="email">Электронная почта</label>
+          <input type="email" class="form-control" id="email" name="email">
         </div>
-      </div>
-      <div class="item">
-        <!--<img src="data:image/gif;base64,R0lGODlhAQABAIAAAFVVVQAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Third slide"> -->
-        <div class="container">
-          <div class="carousel-caption">
-            <h1>One more for good measure.</h1>
-            <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-            <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
-          </div>
+        <div class="form-group">
+          <label for="phone">Телефон</label>
+          <input type="text" class="form-control" id="phone" name="phone">
         </div>
-      </div>
+        <div class="form-group">
+          <label for="comment">Комментарий</label>
+          <textarea type="text" class="form-control" id="comment" name="comment" rows="5"
+                    placeholder="Можете оставить это поле пустым или указать то, что считаете важным, например, удобное Вам время для связи или наиболее подходящий день"></textarea>
+        </div>
+        <button type="submit" class="btn btn-default">Отправить</button>
+      </form>
     </div>
-    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
-    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
-  </div><!-- /.carousel -->
-
-
-
-    <!-- Marketing messaging and featurettes
-    ================================================== -->
-    <!-- Wrap the rest of the page in another container to center all the content. -->
-
-    <div class="container marketing">
-
-      <!-- Three columns of text below the carousel -->
-      <div class="row" id="prices">
-        <div class="col-lg-4">
-          <div class="jumbotron jumbotron-margin prices-font wow fadeInUp" data-wow-duration="1.5s">
-            <img class="img-circle jumbotron-img" src="images/tag.png">
-            <div class="caption">
-              <div class="price-head">Сайт визитка</div>
-              <ul class="list-group">
-                <li class="list-group-item">Шаблонный дизайн</li>
-                <li class="list-group-item">Наполнение сайта контентом</li>
-                <li class="list-group-item">Поддержка сайта</li>
-                <li class="list-group-item">Хостинг и доменное имя</li>
-                <li class="list-group-item">Статический контент</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4">
-          <div class="jumbotron jumbotron-margin prices-font wow fadeInUp" data-wow-duration="2.5s">
-            <img class="img-circle jumbotron-img" src="images/page.png">
-            <div class="caption">
-              <div class="price-head">Официальный сайт</div>
-              <ul class="list-group">
-                <li class="list-group-item">Индивидуальный дизайн</li>
-                <li class="list-group-item">Наполнение сайта контентом</li>
-                <li class="list-group-item">Поддержка сайта</li>
-                <li class="list-group-item">Хостинг и доменное имя</li>
-                <li class="list-group-item">Статический контент</li>
-                <li class="list-group-item">Динамический контент (например, новостная лента)</li>
-                <li class="list-group-item">Форма обратной связи</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4">
-          <div class="jumbotron jumbotron-margin prices-font wow fadeInUp" data-wow-duration="3.5s">
-            <img class="img-circle jumbotron-img" src="images/monitor.png">
-            <div class="caption">
-              <div class="price-head">Веб-приложение</div>
-              <ul class="list-group">
-                <li class="list-group-item">Индивидуальный дизайн</li>
-                <li class="list-group-item">Наполнение сайта контентом</li>
-                <li class="list-group-item">Поддержка сайта</li>
-                <li class="list-group-item">Хостинг и доменное имя</li>
-                <li class="list-group-item">Статический контент</li>
-                <li class="list-group-item">Динамический контент (например, новостная лента)</li>
-                <li class="list-group-item">Форма обратной связи</li>
-                <li class="list-group-item">Создание пользователей портала с назначением прав доступа</li>
-                <li class="list-group-item">Взаимодействие между пользователями портала</li>
-                <li class="list-group-item">Добавление и редактирование материалов портала пользователями</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <!--div class="col-lg-4">
-          <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" style="width: 140px; height: 140px;">
-          <h2>Heading</h2>
-          <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-        </div--><!-- /.col-lg-4 -->
-        <!--div class="col-lg-4">
-          <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" style="width: 140px; height: 140px;">
-          <h2>Heading</h2>
-          <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-        </div--><!-- /.col-lg-4 -->
-        <!--div class="col-lg-4">
-          <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" style="width: 140px; height: 140px;">
-          <h2>Heading</h2>
-          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-        </div--><!-- /.col-lg-4 -->
-      </div><!-- /.row -->
-
-
-      <!-- START THE FEATURETTES -->
-
-      <hr class="featurette-divider">
-
-      <div id="references" class="row">
-        <div class="col-lg-12 col-md-12 review-article jumbotron wow fadeInLeftBig" data-wow-duration="1.0s">
-          <div class="row">
-            <div class="col-lg-4">
-              <span class="review-ico rv-1"></span>
-              Алберт (генеральный директор ООО Дорстрой)
-            </div>
-          </div>
-          <p class="review-text">
-            Заказывал сайт-визитку для компании, не представлял, что должно получиться вообще,
-            на согласование всех деталей ушло меньше часа, через неделю сайт уже заработал.
-            В процессе никаких проблем не возникло, сайт получился понятным и простым.
-          </p>
-          <div class="row">
-            <div class="col-lg-2">
-              <time datetime="2014-06-19">25 июнь 2014</time>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col-lg-12 col-md-12 review-article jumbotron even-review wow fadeInRightBig" data-wow-duration="1.0s">
-          <div class="row">
-            <div class="col-lg-4 col-lg-offset-8">
-              Петров Петр Петрович
-              <span class="review-ico rv-1"></span>
-            </div>
-          </div>
-          <p class="review-text">
-            Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper.
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.
-            Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper.
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.
-          </p>
-          <div class="row">
-            <div class="col-lg-2 col-lg-offset-10">
-              <time datetime="2014-02-12">12 фев 2014</time>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col-lg-12 col-md-12 review-article jumbotron wow fadeInLeftBig" data-wow-duration="1.0s">
-          <div class="row">
-            <div class="col-lg-4">
-              <span class="review-ico rv-1"></span>
-              Иванов Иван Иванович
-            </div>
-          </div>
-          <p class="review-text">
-            Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper.
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.
-            Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper.
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.
-          </p>
-          <div class="row">
-            <div class="col-lg-2">
-              <time datetime="2014-02-11">11 фев 2014</time>
-            </div>
-          </div>
-        </div>
-      </div>
-
-
-
-      <hr class="featurette-divider">
-
-      <!-- /END THE FEATURETTES -->
-
-      <div id="contact" class="container row">
-        <h2 style="text-align: center;" class="wow fadeInDown" data-wow-duration="0.5s">
-          Вы можете позвонить нам, написать на почту или оставить свои контактные данные, и мы обязательно с Вами свяжемся</h2>
-
-        <div class="col-lg-6 wow fadeInLeft" data-wow-duration="1.5s">
-          <div class="contact-div">
-            <img src="images/smartphone.png" class="contact-img"/>
-            <span label label-default>8 (900) 000-00-00</span></div>
-          <div class="contact-div">
-            <img src="images/skype.png" class="contact-img"/>
-            <span label label-default>webdevstudio.com</span></div>
-          <div class="contact-div">
-            <img src="images/gmail.png" class="contact-img"/>
-            <span label label-default>webdevstudio@gmail.com</span>
-          </div>
-        </div>
-
-        <div class="col-lg-6 jumbotron contact-div wow fadeInRight" data-wow-duration="1.5s">
-          <form role="form" method="POST" action="http://nodesendmail.herokuapp.com/sendmail">
-            <input type="text" value="kashak.github.io" name="hostname" hidden="hidden">
-            <div class="form-group">
-              <label for="name">Имя</label>
-              <input type="text" class="form-control" id="name" name="name">
-            </div>
-            <div class="form-group">
-              <label for="email">Электронная почта</label>
-              <input type="email" class="form-control" id="email" name="email">
-            </div>
-            <div class="form-group">
-              <label for="phone">Телефон</label>
-              <input type="text" class="form-control" id="phone" name="phone">
-            </div>
-            <div class="form-group">
-              <label for="comment">Комментарий</label>
-              <textarea type="text" class="form-control" id="comment" name="comment" rows="5"
-                        placeholder="Можете оставить это поле пустым или указать то, что считаете важным, например, удобное Вам время для связи или наиболее подходящий день"></textarea>
-            </div>
-            <button type="submit" class="btn btn-default">Отправить</button>
-          </form>
-        </div> <!-- /container -->
-      </div>
-
-
-    </div><!-- /.container -->
-
-    <div class="container-fluid" id="footer" data-property="{videoURL:'http://www.youtube.com/watch?v=j2jnza8JCqI&list=PLlQ_efoMlZs5MqkEdfQV-lhZ8YVXHCP6p',containment:'#footer',autoPlay:true, mute:true, startAt:0, opacity:1}">
-
-      <div class="container">
-        <hr class="featurette-divider">
-        <!-- FOOTER -->
-        <footer>
-
-            <p>&copy; 2014 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
-        </footer>
-      </div>
-
-    </div><!-- /.container -->
-
-    <div id="to-top" class="pull-right"><p><a href="#" class="animated-scroll">Back to top</a></p></div>
+    -->
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-    <script src="js/docs.min.js"></script>
-    <script src="js/wow.min.js"></script>
-    <script src="js/jquery.mb.YTPlayer.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="js/ie10-viewport-bug-workaround.js"></script>
     <script src="js/script.js"></script>
